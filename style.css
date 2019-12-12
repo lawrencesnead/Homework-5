@@ -1,0 +1,16 @@
+.container {
+    text-align: center;
+}
+
+.hour, .plan, .save-btn {
+    height: 100px;
+    border: 1px solid gray;
+    border-bottom: none;
+}
+.hour, .save-btn {
+    border-left: none;
+}
+.hour {
+    border-right: none;
+}
+
