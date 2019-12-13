@@ -7,8 +7,9 @@
 
 .hour, .plan {
     height: 100px;
-    border: 1px solid gray;
+    border: 1px solid black;
     border-bottom: none;
+    overflow: hidden;
 }
 .hour, .save-btn {
     border-left: none;
@@ -22,12 +23,13 @@
     word-break: break-word;
     background: transparent;
     border: none;
+    margin: 5px auto 5px auto;
     
 }
 .save-btn {
     display: block;
     background-color: blue;
-    height: 100px;
+    height: 110px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
