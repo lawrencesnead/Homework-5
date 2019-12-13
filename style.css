@@ -14,10 +14,12 @@
     
 }
 .plan{
+    display: inline-flex;
     margin-bottom: 1px;
 }
 
 .textBox {
+    position: absolute;
     width: 100%;
     height: 99px;
     word-break: break-word;
@@ -27,10 +29,9 @@
     
 }
 .save-btn {
-    display: block;
     background-color: blue;
-    height: 115px;
-    width: 70px;
+    height: 100px;
+    width: 8%;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
@@ -41,3 +42,11 @@
     border-bottom: 10px solid black;
     padding-bottom: 50px;
 }
+/* @media (max-width: 991.98px) {
+    .hour {
+        font-size: 12px;
+    }
+
+
+
+ } */
