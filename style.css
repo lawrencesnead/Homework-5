@@ -29,7 +29,8 @@
 .save-btn {
     display: block;
     background-color: blue;
-    height: 110px;
+    height: 115px;
+    width: 70px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
